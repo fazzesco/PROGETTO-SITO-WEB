@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>FrancescoFazzello.it</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo"> <img src="logo-agenzia-scuro.png" alt="image" height="50" width="50"></a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="contattami.html">Contattami</a></li>
+            <li class="header__menu__item"><a href="offerta.html">Offerta</a></li>
+			<li class="header__menu__item"><a href="single.html">Social Media ed E-commerce</a></li>
+			<li class="header__menu__item"><a href="page.html">Chi sono</a></li>
+			<li class="header__menu__item"><a href="progetti.html">Progetti</a></li>
+
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Chi Sono</h1>
+				<h2>La Mia Storia</h2>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<img src="logo-agenzia-chiaro.png" class="profile__image"><img src="me-image.png" class="me__image">
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h4>Formazione</h4>
+			<p>Mi Chiamo Francesco, sono uno studente universitario e seguo un corso di formazione di Digital Marketing sulla piattaforma Start2Impact.</p>
+
+<p>Ho da sempre una grande passione per il marketing. Attraverso la Start-up che seguo ho fatto esperienza nella scrittura di blog, nella creazione di strategie pubblicitarie per le aziende sui social media, nella creazione di loghi per le imprese e nell'invenzione e presentazione di progetti da me creati.</p>
+
+<p>Grazie al corso che sto seguendo in questa Start-up ho acquisito diverse Soft Skills, come: saper comunicare efficacemente, creatività, proattività, people oriented, problem solving, intraprendenza, lavoro per obiettivi e una buona gestione delle informazioni fornite.</p>
+
+<p>Allo stesso tempo ho seguito altri corsi e letto numerosi libri che mi hanno permesso di avere una panoramica più completa sui ruoli di Social Media Manager e di E-commerce Manager.</p>
+
+<h4>Personalità</h4>
+<p>Sono una persona ambiziosa, sempre alla ricerca di nuove conoscenze ed esperienze, intraprendente, responsabile, indipendente e mi piace collaborare con altre persone.</p>
+
+<h4>Obiettivo personale</h4>
+<p>Voglio continuare a crescere sia a livello personale sia a livello professionale, approfondendo maggiormente gli argomenti che mi piacciono, acquisendo nuove competenze e migliorando tutti gli aspetti che non mi piacciono. </p>
+
+<h4>Obiettivo professionale</h4>
+
+Aiutare le persone e le aziende in questo periodo complicato, permettendogli di guadagnare e crescere nel mondo digitale, imponendosi sui social media e attraverso l'e-commerce.</p>
+		</div>
+	</article>
+
+	<section class="banner clearfix">
+		<a href="offerta.html"><img src="logo-agenzia-bianco.png" class="strategia-image"></a>
+		<div class="banner__copy__first">
+			<div class="banner__copy__text__first">
+				<a href="offerta.html"><h3>COSA SIGNIFICA IL LOGO</h3>
+
+				<p>Il logo ha come significato quello della <b>crescita</b>.</p>
+				<p>Ho scelto di dare questo significato perché il mio obiettivo è far crescere le attività dei clienti come se fossere le mie, soprattutto in un momento così difficile per tutti.</p>
+			</a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section footer="footer clearfix">
+	<footer class="footer">
+
+	<div class="footer__info">
+	<p>Per qualsiasi tipo di dubbio, informazione o curiosità scrivetemi:<P>
+	</div>
+	<div class="footer__titolo">
+	    <p>CONTATTI:<p>
+		</div>
+		&nbsp &nbsp &nbsp &bull; E-mail: <a href="mailto:francescofazze@gmail.com">francescofazze@gmail.com</a>  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; LinkedIn: <a href="https://www.linkedin.com/in/francescofazzello/"> Francesco Fazzello</a> <br>
+		<br>
+			&nbsp &nbsp &nbsp &bull; Facebook: FF_SME &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; Instagram: FF_SME
+		</p>
+
+
+
+	</footer>
+	</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
