@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>FrancescoFazzello.it</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo"> <img src="logo-agenzia-scuro.png" alt="image" height="50" width="50"></a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="contattami.html">Contattami</a></li>
+            <li class="header__menu__item"><a href="offerta.html">Offerta</a></li>
+			<li class="header__menu__item"><a href="single.html">Social Media ed E-commerce</a></li>
+			<li class="header__menu__item"><a href="page.html">Chi sono</a></li>
+			<li class="header__menu__item"><a href="progetti.html">Progetti</a></li>
+
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Social Media ed E-commerce </h1>
+
+
+			</div>
+		</div>
+	</section>
+
+
+	<article class="panel">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title">Social Media </h2>
+
+
+			<p>I Social Media ormai li utilizziamo tutti per passare il nostro tempo e vedere cosa fanno le persone che ci interessano.</p>
+			<p>Tuttavia negli ultimi anni i social stanno riscuotendo anche molto successso tra le aziende e le varie attività impreditoriali che grazie a Instagram e Facebook principalmente, riescono ad avvicinarsi ai propri clienti e a tutte le persone interessate, pubblicando sui social contenuti interessanti che possono piacere al pubblico.</p>
+		<p>Qualsiasi attività può posizionarsi ed avere successo in questo mondo, grazie ad una strategia ben strutturata.  </p>
+	</div>
+	</article>
+
+	<article class="panel__two">
+		<div class="panel__copy">
+			<h2 class="panel__copy__title">E-commerce </h2>
+
+	<p>Questa area del mondo del digitale, interessa tutti coloro che hanno un'attività che vende prodotti o servizi, o ha intensione di farlo.</p>
+	<p>A causa della pandemia, la crescità e l'importanza del digitale è aumentata in maniera esponenziale e moltissime attività che lavoravano soltanto offline sono fallite.</p>
+	<p>Per questo motivo l'e-commerce è diventato fondamentale, portando tantissime aziende ad evolversi e a creare i propri negozi online per raggiungere più clienti e persone interessate a ciò che veniva offerto.</p>
+	<p>Inoltre un'altro aspetto da considerare, riguarda il fatto che sempre più persone acquistano online grazie alla facilità e alla comodità che l'e-commerce porta con se.</p>
+
+	</div>
+	</article>
+
+	<section class="banner clearfix">
+ <a href="contatti.html"><img src="logo-agenzia-bianco.png" alt="banner-image"></a>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<a href="contattami.html"><h3>CONTATTAMI</h3>
+				<h4>Vuoi far crescere la tua attività? Vuoi conoscere il mondo digitale?</h4>
+				<p>Contattami inviando un'email, per prenotare una consulenza nella quale ti spiegherò esattamente quella che potrebbe essere una strategia per far crescere la tua attività o per iniziare a conoscere in maniera approfondita i Social Media e l'E-commerce..</p>
+               </a>
+			</div>
+		</div>
+	</section>
+
+	<section footer="footer clearfix">
+	<footer class="footer">
+
+	<div class="footer__info">
+	<p>Per qualsiasi tipo di dubbio, informazione o curiosità scrivetemi:<P>
+	</div>
+	<div class="footer__titolo">
+	    <p>CONTATTI:<p>
+		</div>
+		&nbsp &nbsp &nbsp &bull; E-mail: <a href="mailto:francescofazze@gmail.com">francescofazze@gmail.com</a>  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; LinkedIn: <a href="https://www.linkedin.com/in/francescofazzello/"> Francesco Fazzello</a> <br>
+		<br>
+			&nbsp &nbsp &nbsp &bull; Facebook: FF_SME &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; Instagram: FF_SME
+		</p>
+
+
+
+	</footer>
+	</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
