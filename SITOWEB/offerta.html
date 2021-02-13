@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<title>FrancescoFazzello.it</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+	<link rel="stylesheet" href="style.css">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<header class="header clearfix">
+		<a href="index.html" class="header__logo"> <img src="logo-agenzia-scuro.png" alt="image" height="50" width="50"></a>
+		<a href="" class="header__icon-bar">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="header__menu animate">
+			<li class="header__menu__item"><a href="index.html">Home</a></li>
+			<li class="header__menu__item"><a href="contattami.html">Contattami</a></li>
+            <li class="header__menu__item"><a href="offerta.html">Offerta</a></li>
+			<li class="header__menu__item"><a href="single.html">Social Media ed E-commerce</a></li>
+			<li class="header__menu__item"><a href="page.html">Chi sono</a></li>
+			<li class="header__menu__item"><a href="progetti.html">Progetti</a></li>
+
+		</ul>
+	</header>
+
+	<section class="cover cover--single">
+		<div class="cover__filter"></div>
+		<div class="cover__caption">
+			<div class="cover__caption__copy">
+				<h1>Cosa Offro</h1>
+				<h2>Faccio crescere la tua attività</h2>
+			</div>
+		</div>
+	</section>
+
+	<article class="panel">
+		<div class="panel__copy">
+<h2>Come faccio crescere la tua attività?</h2>
+			<p>In un periodo così complesso per tutti, il mondo del digitale può essere una risorsa fondamentale per far crescere la propria attività.</p>
+			<p>Grazie ad un continuo studio sull'e-commerce e sui social media ho acquisito le competenze necessarie per svolgere questo lavoro ed aiutare piccoli imprenditori a posizionarsi ed avere successo in queste due aree.</p>
+<h2>Consulenza</h2>
+			<p>Attraverso una consulenza gratuita nella quale tu mi spiegherai in che cosa consiste la tua attività, io ti proporrò una strategia dettagliata dove ti mostrerò esattamente come si svilupperà, in seguito tu deciderai se ritenerla valida o meno.</p>
+
+		</div>
+	</article>
+
+	<article class="panel__two">
+		<div class="panel__copy">
+<h2>Vuoi scoprire il mondo digitale?</h2>
+			<p>Il mondo dell'online è diventato fondamentale in ambito lavorativo, per questo sempre più persone e aziende lo utilizzano per lavorare e guadagnare.</p>
+			<p>Contattami se vuoi anche tu incominciare a compredere come funziona o se vuoi approfondire qualche argomento specifico che riguarda i social media o l'e-commerce.</p>
+<h2>Consulenza</h2>
+			<p>Nella consulenza che durerà un'ora o due, approfondiremo insieme tutti gli argomenti che desideri e ti chiarirò tutte le incertezze che hai a riguardo.</p>
+
+		</div>
+	</article>
+
+	</section>
+
+	<section class="banner clearfix">
+ <a href="contatti.html"><img src="logo-agenzia-bianco.png" alt="banner-image"></a>
+		<div class="banner__copy">
+			<div class="banner__copy__text">
+				<a href="contattami.html"><h3>CONTATTAMI</h3>
+				<h4>Vuoi far crescere la tua attività? Vuoi conoscere il mondo digitale?</h4>
+				<p>Contattami inviando un'email, per prenotare una consulenza nella quale ti spiegherò esattamente quella che potrebbe essere una strategia per far crescere la tua attività o per iniziare a conoscere in maniera approfondita i Social Media e <br>l'E-commerce.</p>
+               </a>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section footer="footer clearfix">
+	<footer class="footer">
+
+	<div class="footer__info">
+	<p>Per qualsiasi tipo di dubbio, informazione o curiosità scrivetemi:<P>
+	</div>
+	<div class="footer__titolo">
+	    <p>CONTATTI:<p>
+		</div>
+		&nbsp &nbsp &nbsp &bull; E-mail: <a href="mailto:francescofazze@gmail.com">francescofazze@gmail.com</a>  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; LinkedIn: <a href="https://www.linkedin.com/in/francescofazzello/"> Francesco Fazzello</a> <br>
+		<br>
+			&nbsp &nbsp &nbsp &bull; Facebook: FF_SME &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &bull; Instagram: FF_SME
+		</p>
+
+
+
+	</footer>
+	</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+			});
+	 });
+</script>
+
+
+</body>
+</html>
